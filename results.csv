@@ -1,0 +1,17 @@
+Route,Agent,Path,Cost,Nodes Explored,Time (s),Status
+Reception → Library,PATHFINDER,Reception → CRNN Centre → Garden Area → Library,340.0,4,0.000062,Success
+Reception → Library,ORBIT,Reception → CRNN Centre → Garden Area → Library,340.0,15,0.000092,Success
+Canteen → New Building 2,PATHFINDER,Canteen → Auditorium Hall → New Building 2,260.0,3,0.000022,Success
+Canteen → New Building 2,ORBIT,Canteen → Auditorium Hall → New Building 2,260.0,7,0.000038,Success
+Entry Gate 1 → CSE Laboratory,PATHFINDER,Entry Gate 1 → Reception → CRNN Centre → Garden Area → Lift Area → Tower 2 Rear Entry → Lift Area → CSE Laboratory,600.0,8,0.000062,Success
+Entry Gate 1 → CSE Laboratory,ORBIT,Entry Gate 1 → Reception → Power Area → Tower 2 Front Entry → Lift Area → CSE Laboratory,520.0,17,0.000081,Success
+Auditorium Hall → CSE_AKC Seminar Hall,PATHFINDER,Auditorium Hall → CRNN Centre → Garden Area → Lift Area → Tower 2 Rear Entry → Lift Area → CSE_AKC Seminar Hall,445.0,7,0.000046,Success
+Auditorium Hall → CSE_AKC Seminar Hall,ORBIT,Auditorium Hall → CRNN Centre → Garden Area → Lift Area → Tower 2 Rear Entry → Lift Area → CSE_AKC Seminar Hall,445.0,18,0.000345,Success
+Library → Canteen,PATHFINDER,Library → Lift Area → Tower 2 Front Entry → Power Area → Reception → Canteen,440.0,6,0.000043,Success
+Library → Canteen,ORBIT,Library → Garden Area → CRNN Centre → Reception → Canteen,390.0,19,0.000091,Success
+Entry Gate 1 → Library,PATHFINDER,Entry Gate 1 → Reception → CRNN Centre → Garden Area → Library,460.0,5,0.000027,Success
+Entry Gate 1 → Library,ORBIT,Entry Gate 1 → Reception → CRNN Centre → Garden Area → Library,460.0,15,0.000063,Success
+Playground → New Building 1,PATHFINDER,Playground → Parking Area → Tower 2 Rear Entry → Library → Garden Area → New Building 1,430.0,6,0.000034,Success
+Playground → New Building 1,ORBIT,Playground → Tower 2 Front Entry → Tower 2 Rear Entry → Library → Garden Area → New Building 1,420.0,16,0.000065,Success
+CSE Laboratory → Canteen,PATHFINDER,CSE Laboratory → Lift Area → Tower 2 Front Entry → Power Area → Reception → Canteen,450.0,8,0.000045,Success
+CSE Laboratory → Canteen,ORBIT,CSE Laboratory → Lift Area → Garden Area → CRNN Centre → Reception → Canteen,430.0,19,0.000071,Success
